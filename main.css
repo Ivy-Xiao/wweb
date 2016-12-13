@@ -7,7 +7,7 @@ html, body {
 
 h1 {
   text-align: middle;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 p {
@@ -16,7 +16,7 @@ p {
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 div {
@@ -48,7 +48,7 @@ video {
 .nav {
   background-color: #ADD8E6;
   max-width: 25%;
-  min-width: 140px;
+  min-width: 200px;
   min-height: 1200px;
   flex: 1;
 }
