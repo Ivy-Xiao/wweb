@@ -6,7 +6,8 @@ html, body {
 }
 
 h1 {
-  font-size: 48px;
+  text-align: middle;
+  font-size: 20px;
 }
 
 p {
@@ -15,7 +16,7 @@ p {
 }
 
 h2 {
-  font-size: 2.6rem;
+  font-size: 2rem;
 }
 
 div {
