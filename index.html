@@ -1,12 +1,62 @@
 <!DOCTYPE html>
-<html lang="en-ca">
+<html>
 <head>
-	<meta charset="utf-8">
-	<title>Ivy's Personal Website</title>
+  <title>Ivy's blog</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-
-	<h1>Ivy's Personal Website</h1>
-	
+  <div class="container">
+    <div class="nav">
+      <img src="https://www.cco.caltech.edu/~chinese/2013/committee/2014fall/jiyun.jpg.jpg" alt="ivy's photo:)" style="width:140px;height:140px;">
+      <h2>Ivy Jiyun Xiao</h2>
+      <ul>
+        <li>About</li>
+        <li>Publications</li>
+        <li>Random stuff</li>
+      </ul>
+    </div>
+    <div class="main">
+      <h2>About</h2>
+      <h3>Beauty and Artificial Intelligence.</h3>
+      <p>I am a senior at Caltech in CMS(Computing and Mathematical Sciences) Department. I'm interested in statistical machine learning, computational computer vision, optimization theory, and problems in artificial intelligence in general. I'm currently working with Prof.Yisong Yue and Dr.Taehwan Kim on noise removal methods in decision tree frameworks and neural network frameworks. Here is a <a href="cities.html">list</a> of cities where you can find us.</p>
+      <h2>Publications</h2>
+      <h3>Noise Removal Method for, Jiyun Xiao, Taehwan Kim, Yisong Yue</h3>
+      <p>Abstract: Spatiotemporal sequence prediction has become of increasing importance in human motion data and surveillance video data research. High-dimensional spatiotemporal data, however, often contain noise of different amplitudes and sparsity, due to outlier
+objects tampering data, camera malfunctioning, and many other data corruption
+that happen in the data collection process. Learning patterns from spatiotemporal
+data sets that contain random noise is especially challenging since machine learning
+models fitted to these corrupted data tend to give inaccurate models and render big
+generalization errors. It is thus important that we either remove the noise before
+fitting models or build models that have a high tolerance of random noise. Here we
+combine random noise approaches with sliding window decomposed decision tree
+models and propose methods that improve upon the naive combination. By testing
+our methods on a visual speech generation data set, we show that our methods
+render more accurate models for spatiotemporal sequence prediction and that our
+methods remove random noise precisely. Here's <a href="noise-removal.pdf">noise removal</a>. Or maybe keyword + picture + link?</p>
+      <h3>Multi-bandit (CS159 final report), Tobias Bischoff, Jiyun Xiao, Brennan Young</h3>
+      <p>Abstract: This project attempts to use a multi-armed bandit approach to visual pref-
+erence prediction. The idea is that dierent individuals show a dierent
+preference for visual features in human faces, i.e., that the preferences can
+be highly personal. This provides a challenge for machine learning prac-
+titioners that are concerned with visual preference prediction, as labeled
+data is almost always unavailable, impossible to obtain, or both. We tackle
+this problem by categorizing a set of images of human faces then training a
+UCB algorithm that treats the dierent categories as arms of a multi-armed
+bandit, where each arm has a dierent reward probability that is dierent
+for dierent individuals. We categorize the images in two dierent ways: 1)
+the images are labeled by hand in terms of gender, race, facial expression
+(happy or not) and 2) we use an unsupervised dimensionality reduction
+and clustering approach to categorize the images without labeling, thereby
+providing a pipeline that can process a set of images and learn individual
+preferences automatically. We build an interface and conduct experiments
+on human behavior by showing a set of about 1200 images to participants
+in a trial to learn their visual preferences about the images in the dataset.
+Lastly, we provide and outlook on the remaining challenges of this problem
+and present a roadmap for future developments. Here's <a href="multi-armed.pdf">multi-armed bandit</a>. </p>    
+      <h2>Random Stuff</h2>
+      <p>I am an amateur boxer and composer/violinist. See my collection of 20-min sketch composing <a href=https://soundcloud.com/jiyun-ivy-xiao>here</a></p>
+  	</div>
+  </div>
 </body>
 </html>
