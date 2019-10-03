@@ -1,2 +1,2 @@
-# wweb
-a small website
+# web
+personal website
